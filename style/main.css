@@ -1,14 +1,17 @@
 body {
-    background-color: #666666;
+    background-color: #4E5556;/* #687683;*/
+    margin: 0;
 }
 
 #welcome-section {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     align-items: center;
-    margin-top: 100px;
+    padding-top: 60px;
+    background-color: #5f6769;
+    padding-bottom: 160px;
 }
 
 #name {
@@ -33,12 +36,129 @@ body {
 }
 .socialize {
     color: #ffffff;
-    margin-right: 8px;
-    margin-left: 8px;
     text-decoration-line: none
 }
 
 .separator {
     color: #ffffff;
+    margin-right: 8px;
+    margin-left: 8px;
 }
 
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 120px;
+}
+
+#projects > h1 {
+    color: #f5f5f5;
+    font-family: Fjalla One;
+    font-size: 42px;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+#filter {
+    width: 58%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#filter a {
+    color: #E9F1F7;
+    font-family: sans-serif;
+    text-decoration-line: none;
+    border: solid 1px;
+    padding: 10px 7px 10px 7px;
+    border-color: #719192;
+    margin-right: 15px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease;
+}
+
+#filter a:hover {
+    background-color: #3E92CC;
+}
+
+#filter .active {
+    background-color: #3E92CC;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    height: 120px;
+    margin-top: 25px;
+}
+
+.project-thumbnail {
+    width: 13%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+.project-description {
+    width: 70%;
+    margin-left: 14px;
+    margin-top: 4px;
+}
+
+.project-header {
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-header  a {
+    color: #FFC984;/*#FF9D1E;*/
+    text-decoration-line: none;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.project-header  h1 {
+    color: #f7f7f7;
+    font-family: Fjalla One ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+
+
+.project-description > p {
+    color: #f6f6f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.highlight {
+    background-color: #00bcd4;
+}
+
+.project-links {
+    margin-bottom: 0px;
+}
+
+
+.tags {
+    background-color: #3E92CC;
+    padding: 2px 3px 1px 3px;
+    border-radius: 2px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.small-p {
+    font-size: 12px;
+}
