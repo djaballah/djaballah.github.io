@@ -43,7 +43,7 @@ let createProjectDescriptionDiv = function(projectData) {
 function addProject(projectsDiv, projectData) {
 
     let projectDiv = document.createElement('div');
-    projectDiv.setAttribute("class", "project-container");
+    projectDiv.setAttribute("class", "project-tile");
 
     let projectThumbnailDiv = document.createElement('div');
     projectThumbnailDiv.setAttribute('class', 'project-thumbnail')
