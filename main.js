@@ -79,6 +79,15 @@ let projects = [
         "github": "https://github.com/djaballah/product-landing-page",
         "technologies": ['html', 'css'],
         "tag": "freecodecamp"
+    },
+    {
+        "title": "Technical Documentation",
+        "thumbnailPath": "assets/technical-documentation.png",
+        "desc": "A technical documentation web page which is a project from the freecodecamp Resposive Web Design Certification.",
+        "demoLink": "https://djaballah.github.io/technical-documentation/",
+        "github": "https://github.com/djaballah/technical-documentation",
+        "technologies": ['html', 'css'],
+        "tag": "freecodecamp"
     }
 ]
 
