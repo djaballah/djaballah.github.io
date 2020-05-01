@@ -1,5 +1,5 @@
 body {
-    background-color: #4E5556;/* #687683;*/
+    background-color: #242629;
     margin: 0;
 }
 
@@ -15,12 +15,12 @@ header {
     margin: 0 auto;
     align-items: center;
     padding-top: 60px;
-    background-color: #5f6769;
+    background-color: #f2f4f6;
     padding-bottom: 180px;
 }
 
 #name {
-    color: #f5f5f5;
+    color: #181818;
     font-family: Fjalla One;
     font-size: 42px;
     font-weight: 100;
@@ -28,7 +28,7 @@ header {
 }
 
 #title {
-    color: #00bcd4;
+    color: #4fc4cf;
     font-family: Fjalla One;
     font-size: 28px;
     font-weight: 100;
@@ -36,11 +36,11 @@ header {
 }
 
 #social {
-    margin-top: 5px;
+    margin-top: 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .socialize {
-    color: #ffffff;
+    color: #2e2e2e;
     text-decoration-line: none
 }
 
@@ -59,7 +59,7 @@ header {
 }
 
 #projects > h1 {
-    color: #f5f5f5;
+    color: #fffffe;
     font-family: Fjalla One;
     font-size: 42px;
     font-weight: 100;
@@ -75,14 +75,15 @@ header {
 }
 
 #filter a {
-    color: #E9F1F7;
-    font-family: sans-serif;
+    color: #fffffe;
+    background-color: #3da9fc;
+    font-family: proxima-nova, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
     text-decoration-line: none;
-    border: solid 1px;
-    padding: 10px 7px 10px 7px;
-    border-color: #719192;
+    padding: 10px 12px 10px 12px;
     margin-right: 15px;
-    border-radius: 3px;
+    border-radius: 2px;
     transition: background-color 0.5s ease;
 }
 
@@ -101,6 +102,10 @@ header {
     width: 70%;
     height: 120px;
     margin-top: 25px;
+    background-color: #16161a;
+    padding: 15px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
 }
 
 .project-thumbnail {
@@ -126,22 +131,15 @@ img {
 }
 
 .project-header  a {
-    color: #FFC984;/*#FF9D1E;*/
+    color: #ef4565;
     text-decoration-line: none;
     font-family: sans-serif;
     font-size: 16px;
     padding: 8px 6px;
-    transition: background-color 0.4s ease;
-    border-radius: 2px;
-}
-
-.project-header  a:hover {
-    background-color: #3E92CC;
-    color: #E9F1F7;
 }
 
 .project-header  h1 {
-    color: #f7f7f7;
+    color: #fffffe;
     font-family: Fjalla One ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -150,7 +148,7 @@ img {
 
 
 .project-description > p {
-    color: #f6f6f6;
+    color: #ddd6d6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 10px;
 }
@@ -165,7 +163,8 @@ img {
 
 
 .tags {
-    background-color: #3E92CC;
+    background-color: #fffffe;
+    color: #000000;
     padding: 2px 3px 1px 3px;
     border-radius: 2px;
     font-size: 12px;
@@ -182,7 +181,6 @@ img {
         height: auto;
         justify-content: center;
         align-items: center;
-        border: 1px solid #5f6769;
         padding: 10px 5px;
     }
 
@@ -192,6 +190,7 @@ img {
 
     .project-header  h1 {
         margin-bottom: 6px;
+        text-align: center;
     }
 
     .project-description {
@@ -203,6 +202,7 @@ img {
 
     .project-description > p {
         line-height: 1.3;
+        text-align: center;
     }
     .project-thumbnail {
         display: none;
