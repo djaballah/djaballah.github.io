@@ -107,4 +107,35 @@ for (projectData of projects) {
 }
 
 
+let filter_by_tag = function (tag) {
+    document.querySelector('.active').classList.toggle('active');
+    let filtered = projects.filter((p) => p.tag === tag || tag === 'all');
+    let projects_div = document.querySelectorAll('.project-tile')
+    for (let project of projects_div) {
+        project.parentElement.removeChild(project);
+    }
+    for (projectData of filtered) {
+        addProject(projectsDiv, projectData);
+    }
+    document.getElementById(tag).setAttribute('class', 'active');
+}
 
+document.getElementById('university').addEventListener('click', function(event) {
+    filter_by_tag('university');
+    event.preventDefault();
+});
+
+document.getElementById('freecodecamp').addEventListener('click', function(event) {
+    filter_by_tag('freecodecamp');
+    event.preventDefault();
+});
+
+document.getElementById('personal').addEventListener('click', function(event) {
+    filter_by_tag('personal');
+    event.preventDefault();
+});
+
+document.getElementById('all').addEventListener('click', function(event) {
+    filter_by_tag('all');
+    event.preventDefault();
+});
