@@ -72,6 +72,15 @@ function addProject(projectsDiv, projectData) {
 
 let projects = [
     {
+        "title": "Puzzle of 8",
+        "thumbnailPath": "assets/puzzle-of-8.png",
+        "desc": "An AI solving the puzzle of 8 game using the A* algorithm.",
+        "demoLink": "https://djaballah.github.io/puzzle-of-8",
+        "github": "https://github.com/djaballah/puzzle-of-8",
+        "technologies": ['AWS Lambda', 'Python', 'Javascript', 'html', 'css'],
+        "tag": "personal"
+    },
+    {
         "title": "Landing Page",
         "thumbnailPath": "assets/product-landing.png",
         "desc": "A product landing web page which is a project from the freecodecamp Resposive Web Design Certification.",
