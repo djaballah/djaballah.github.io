@@ -80,6 +80,15 @@ let projects = [
         "tag": "personal"
     },
     {
+        "title": "Stack Overflow 2018 Developer Survey Analysis",
+        "thumbnailPath": "assets/stackoverflow-analysis.png",
+        "desc": " data exploration and visualization on the Stack-Overflow-2018-Developer-Survey.",
+        "demoLink": "https://github.com/djaballah/Stack-Overflow-2018-Developer-Survey-Analysis/blob/master/Simple%20Eda.ipynb",
+        "github": "https://github.com/djaballah/Stack-Overflow-2018-Developer-Survey-Analysis",
+        "technologies": ['Python', 'Pandas', 'Numpy', 'Matplotlib', 'Seaborn'],
+        "tag": "personal"
+    },
+    {
         "title": "Landing Page",
         "thumbnailPath": "assets/product-landing.png",
         "desc": "A product landing web page which is a project from the freecodecamp Resposive Web Design Certification.",
