@@ -56,7 +56,6 @@ function addProject(projectsDiv, projectData) {
 
     let projectDescriptionFooter = document.createElement("p")
     projectDescriptionFooter.setAttribute('class', "small-p");
-    projectDescriptionFooter.innerText = 'Technologies: '
     for (technology of projectData['technologies']) {
         let span = document.createElement('span')
         span.setAttribute('class', 'tags')
