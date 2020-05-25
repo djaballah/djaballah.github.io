@@ -89,6 +89,15 @@ let projects = [
         "tag": "personal"
     },
     {
+        "title": "SearchEngine",
+        "thumbnailPath": "assets/searchEngine.png",
+        "desc": "Text Search Engine to search through text files.",
+        "demoLink": "https://github.com/djaballah/SearchEngine",
+        "github": "https://github.com/djaballah/SearchEngine",
+        "technologies": ['Python', 'PyQt'],
+        "tag": "university"
+    },
+    {
         "title": "Landing Page",
         "thumbnailPath": "assets/product-landing.png",
         "desc": "A product landing web page which is a project from the freecodecamp Resposive Web Design Certification.",
