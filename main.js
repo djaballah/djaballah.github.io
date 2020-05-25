@@ -76,7 +76,7 @@ let projects = [
         "desc": "An AI solving the puzzle of 8 game using the A* algorithm.",
         "demoLink": "https://djaballah.github.io/puzzle-of-8",
         "github": "https://github.com/djaballah/puzzle-of-8",
-        "technologies": ['AWS Lambda', 'Python', 'Javascript', 'html', 'css'],
+        "technologies": ['AWS Lambda', 'AWS API GATEWAY', 'Python', 'Javascript', 'html', 'css'],
         "tag": "personal"
     },
     {
