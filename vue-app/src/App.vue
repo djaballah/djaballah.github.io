@@ -1,29 +1,55 @@
 <template>
-  <img
-    alt="Vue logo"
-    src="./assets/logo.png"
-  >
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="flex-container">
+    <div class="flex-item-left">
+      <About />
+    </div>
+    <div class="flex-item-right">
+      <ShowCase />
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import About from './components/About.vue';
+import ShowCase from './components/ShowCase.vue';
 
 export default {
-    name: 'App',
-    components: {
-        HelloWorld,
+    'name': 'APP',
+    'components': {
+        About,
+        ShowCase,
     },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.flex-container {
+    display: flex;
+    background-color: #000000;
+    min-height: 100vh;
+    font-family: Fjalla One;
+}
+
+.flex-item-left {
+    flex: 50%;
+}
+
+.flex-item-right {
+    flex: 50%;
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-item-left {
+    flex: 100%;
+  }
+
+  .flex-item-right {
+      flex: 100%;
+      display: flex;
+  }
 }
 </style>
